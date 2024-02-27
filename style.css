@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #666;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header form {
+    display: flex;
+  }
+  
+  header input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  header button {
+    padding: 10px 20px;
+    background-color: #FB3B49;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    border: none;
+    cursor: pointer;
+  }
+  
+  header .button-secondary {
+    background-color: #666;
+    box-shadow: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+   h2 {
+    background-color: rgba(255,204,53,.4);
+    padding: 10px 20px;
+    font-style: italic;
+    transform: skew(9deg, 0deg);
+  }
+  p {
+    margin-bottom: 0;
+  }
+  
+   .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #666;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+  }
+  
+   .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .card-details {
+    width: 60%;
+  }
+  
+  .card-details h3 {
+    color: #ED1C24;
+    margin-bottom: 10px;
+  }
+  
+  .card-details p {
+    margin-bottom: 0;
+  }
+  
+  .card-secondary {
+    background-color: #8B4513;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    color: white;
+  }
+  
+  
+  
+  h2 {
+    background-color: #666;
+    color: #ED1C24;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #666;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+    margin: 0 10px;
+  }
